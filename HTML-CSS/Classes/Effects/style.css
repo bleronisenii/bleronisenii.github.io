@@ -1,0 +1,46 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(./jewlery.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.welcome-popup
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #aaaaaa66;
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(20px 20px 30px #000);
+    color: white;
+    border-top: 3px solid #aaaaaa88;
+    border-left: 1px solid #aaaaaa88;
+    border-right: 1px solid #aaaaaa88;
+    border-bottom: 1px solid #aaaaaa88;
+    border-radius: 3px;
+    width: 50%;
+    height: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-content: center;
+    font-size: 5rem;
+    letter-spacing: 1.9rem;
+    font-family: 'Times New Roman', Times, serif;
+    transition: filter 1s;
+    user-select: none;
+
+}
+.welcome-popup:hover
+{
+    filter: drop-shadow(0px 0px 10px white);
+    transition: filter 1s;
+    cursor: pointer;
+}

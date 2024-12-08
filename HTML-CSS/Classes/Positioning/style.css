@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: gray;
+    width: 100vw;
+    height: 5vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+main{
+    position: relative;
+    margin-top: 5vh;
+    left: 0;
+}
+.position-static{
+    /* This is the default document flow */
+    position: static;
+}
+.position-absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00aa0033;
+    width: 600px;
+}
+.position-sticky{
+    position: sticky;
+    top: 20px;
+    background-color: #ffee00aa;
+}
+/* button is using fixed position  */
+.back-to-top{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: yellow;
+    cursor: crosshair;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+    transition: 1s;
+}
